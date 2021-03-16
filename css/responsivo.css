@@ -1,0 +1,49 @@
+
+@media screen and (max-width:630px) {
+
+    body {
+        background-color: white;
+    }
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+}
+
+
+@media screen and (min-width: 631px)  and (max-width:1024px){ 
+
+    .instagram-wrapper {
+        width: 70%;
+    }
+    .instagram-phone img {        
+        height: 35rem;    
+    }
+   
+.group:nth-child(1) {
+    min-height: 19rem;
+ }
+
+}
+
+@media screen and (min-width: 1024px) { 
+
+    .instagram-wrapper {
+        width: 60%;
+    }
+
+}
+
+
+ 
